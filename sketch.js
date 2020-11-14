@@ -9,7 +9,7 @@ var obstacleImage
 var obstacleImage2
 var goblingr,goblingr2,goblingr3,goblingr4, obs1gr, obs2gr, objj;
 var gamestate="PLAY";
-var song;
+// var song;
 function preload() {
   narutoani = loadAnimation("download (11).png", "download (12).png", "download (13).png", "download (14).png", "download (15).png", "download (16).png")
 
@@ -25,7 +25,7 @@ function preload() {
   obstacleImage2 = loadImage("download (19).png")
   
   
-  song=loadSound("1.mp3");
+//   song=loadSound("1.mp3");
   gggg=loadImage("download (18).png")
 }
 
@@ -35,8 +35,8 @@ function setup() {
   naruto.addAnimation("na", narutoani);
   naruto.scale = 1.2;
   naruto.lifetime=10000;
-   song.loop();
-    song.setVolume(0.2);
+//    song.loop();
+//     song.setVolume(0.2);
   invv = createSprite(width / 2, height - 40, width, 1);
   goblingr = new Group();
   goblingr2 = new Group();
